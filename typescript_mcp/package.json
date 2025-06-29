@@ -1,6 +1,6 @@
 {
-  "name": "aaditi_binance_mcp",
-  "version": "1.0.3",
+  "name": "aaditi_binance_ts_mcp",
+  "version": "1.0.1",
   "main": "dist/binance_mcp.js",
   "bin": "dist/binance_mcp.js",
   "scripts": {

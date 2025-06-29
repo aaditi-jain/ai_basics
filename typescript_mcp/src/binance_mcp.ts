@@ -7,7 +7,7 @@ import path from "path";
 
 const { version } = require("../package.json");
 
-const ACTIVITY_LOG_FILE = path.join(__dirname, "../../typescript_mcp/activity.log");
+const ACTIVITY_LOG_FILE = path.join(__dirname, "activity.log");
 
 function getSymbolFromName(name: string): string {
     if (["bitcoin", "btc"].includes(name.toLowerCase())) return "BTCUSDT";

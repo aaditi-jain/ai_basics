@@ -10,7 +10,7 @@ const zod_1 = require("zod");
 const fs_1 = __importDefault(require("fs"));
 const path_1 = __importDefault(require("path"));
 const { version } = require("../package.json");
-const ACTIVITY_LOG_FILE = path_1.default.join(__dirname, "../../typescript_mcp/activity.log");
+const ACTIVITY_LOG_FILE = path_1.default.join(__dirname, "activity.log");
 function getSymbolFromName(name) {
     if (["bitcoin", "btc"].includes(name.toLowerCase()))
         return "BTCUSDT";
