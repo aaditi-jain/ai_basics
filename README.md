@@ -1,0 +1,1 @@
+Personal repository documenting my exploration of artificial intelligence fundamentals. Contains code experiments, practice implementations, notes, and projects as I work through various AI concepts and tutorials.ß
