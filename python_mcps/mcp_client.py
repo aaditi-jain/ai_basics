@@ -5,7 +5,7 @@ from mcp.client.stdio import stdio_client
 
 MCP_FOLDER = Path(__file__).parent.absolute()
 server_params = StdioServerParameters(
-    command="/Users/aajain/projects/personal/ai_basics/python_mcp/.venv/bin/python3",
+    command="/Users/aajain/projects/personal/ai_basics/python_mcps/.venv/bin/python3",
     args=[str(MCP_FOLDER/"binance_mcp.py")],
     env=None
 )
